@@ -125,7 +125,7 @@ fn main() {
                     }
                 }
                 if !found {
-                    println!("\nTicket not found!");
+                    println!("\n oUCH...Ticket not found!");
                 }
             }
             4 => {
@@ -133,15 +133,15 @@ fn main() {
                 for ticket in &tickets {
                     println!("\nTicket ID: {}", ticket.0);
                     println!("Title: {}", ticket.1);
-                    println!("Priority: {}", ticket.3);
+                    println!("Prior: {}", ticket.3);
                     println!("Status: {}", ticket.4);
                 }
             }
             5 => {
-                println!("\nGoodbye!");
+                println!("\nBYE BYE BROO!");
                 break;
             }
-            _ => println!("\nInvalid choice! Please try again."),
+            _ => println!("\nInvalid choice! try something else buddy."),
         }
     }
 }
